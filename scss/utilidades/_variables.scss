@@ -1,0 +1,12 @@
+$nav-footer: #5bae6c;
+
+@mixin texto-sombra(){
+    text-shadow: 1.5px 1.5px 5px black;
+}
+
+@mixin formularios {
+    color:black;
+    background-color: $nav-footer;
+    padding: 0.5%;
+    border-radius: 5px;
+}
